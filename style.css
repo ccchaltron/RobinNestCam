@@ -1,10 +1,9 @@
 
-body{font-family:Arial,sans-serif;background:#173425;color:#f2f2f2;line-height:1.6}
-.hero{background:#2d5a3d;text-align:center;padding:40px}
+body{font-family:Arial,sans-serif;background:#183322;color:#f2f2f2;margin:0;line-height:1.6}
+.hero{background:#29563b;padding:40px;text-align:center}
 .player,.status,.update{max-width:1000px;margin:30px auto;padding:0 20px}
 .video{border:3px solid #fff;border-radius:10px;overflow:hidden}
 .cards{display:flex;gap:20px;flex-wrap:wrap}
-.card{flex:1;min-width:180px;background:#284932;padding:20px;border-radius:10px;text-align:center}
+.card{flex:1;min-width:180px;background:#26492f;padding:20px;border-radius:10px;text-align:center}
 .card p{font-size:2em}
-footer{text-align:center;background:#2d5a3d;padding:20px;margin-top:40px}
-.note{font-size:.9em}
+footer{text-align:center;background:#29563b;padding:20px;margin-top:40px}

@@ -1,9 +1,12 @@
 
-Robin Nest Cam Website
+NEW: You only edit ONE file.
 
-To publish free:
-1. Create a GitHub account.
-2. Create a repository named RobinNestCam.
-3. Upload these files.
-4. In repository Settings > Pages, enable GitHub Pages.
-5. Replace YOUR_CHANNEL_ID in index.html with your YouTube Channel ID.
+Open status.json in Notepad and change only these values:
+
+eggs
+hatched
+day
+update
+
+Save the file and upload ONLY status.json to GitHub.
+The website updates automatically in about a minute.
