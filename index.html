@@ -45,7 +45,7 @@ allowfullscreen></iframe>
 <footer>© 2026 Robin Nest Cam</footer>
 
 <script>
-fetch('status.json').then(r=>r.json()).then(s=>{
+fetch('status.json?v=' + Date.now()).then(r=>r.json()).then(s=>{
 eggs.textContent=s.eggs;
 hatched.textContent=s.hatched;
 day.textContent=s.day;
