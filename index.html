@@ -1,52 +1,16 @@
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Robin Nest Cam</title>
-<link rel="stylesheet" href="style.css">
-</head>
-<body>
-<header class="hero">
-<h1>🐦 Robin Nest Cam</h1>
-<p>Live 24/7 from Clinton Township, Michigan</p>
-</header>
-
-<section class="latest">
-<h2>📝 Latest Nest Update</h2>
-<p><strong>Nest Day <span id="dayTop">6</span></strong></p>
-<p id="updateTop">Mom robin continues faithfully incubating the three beautiful blue eggs.</p>
-</section>
-
-<section class="player">
-<h2>🔴 Live Stream</h2>
-<div class="video">
-<iframe width="100%" height="500"
-src="https://www.youtube.com/embed/live_stream?channel=UC8mjCBKCXO_K7lx5FrZw4VQ"
-allowfullscreen></iframe>
-</div>
-</section>
-
-<section class="status">
-<h2>Nest Status</h2>
-<div class="cards">
-<div class="card"><h3>🥚 Eggs</h3><p id="eggs">3</p></div>
-<div class="card"><h3>🐣 Hatched</h3><p id="hatched">0</p></div>
-<div class="card"><h3>📅 Nest Day</h3><p id="day">6</p></div>
-</div>
-</section>
-
-<footer>© 2026 Robin Nest Cam</footer>
-
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Robin Nest Cam</title><link rel="stylesheet" href="style.css"></head><body>
+<header class="hero"><h1>🐦 Robin Nest Cam</h1><p>Live 24/7 from Clinton Township, Michigan</p></header>
+<section class="box"><h2>📝 Latest Nest Update</h2><p><b>Nest Day <span id="dayTop">6</span></b></p><p id="updateTop">Mom robin continues faithfully incubating the three beautiful blue eggs.</p></section>
+<section class="box"><h2>🐦 Did You Know?</h2><p id="fact">American robins usually lay one egg each morning until the clutch is complete.</p></section>
+<section class="player"><h2>🔴 Live Stream</h2><div class="video"><iframe width="100%" height="500" src="https://www.youtube.com/embed/live_stream?channel=UC8mjCBKCXO_K7lx5FrZw4VQ" allowfullscreen></iframe></div></section>
+<section class="status"><h2>Nest Status</h2><div class="cards"><div class="card"><h3>🥚 Eggs</h3><p id="eggs">3</p></div><div class="card"><h3>🐣 Hatched</h3><p id="hatched">0</p></div><div class="card"><h3>📅 Nest Day</h3><p id="day">6</p></div></div></section><footer>© 2026 Robin Nest Cam</footer>
 <script>
 fetch('status.json').then(r=>r.json()).then(s=>{
-eggs.textContent=s.eggs;
-hatched.textContent=s.hatched;
-day.textContent=s.day;
-dayTop.textContent=s.day;
-updateTop.textContent=s.update;
+document.getElementById('eggs').textContent=s.eggs;
+document.getElementById('hatched').textContent=s.hatched;
+document.getElementById('day').textContent=s.day;
+document.getElementById('dayTop').textContent=s.day;
+document.getElementById('updateTop').textContent=s.update;
+document.getElementById('fact').textContent=s.funfact;
 });
-</script>
-</body>
-</html>
+</script></body></html>
