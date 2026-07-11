@@ -1,11 +1,12 @@
-
-body{font-family:Arial,sans-serif;background:#183322;color:#f2f2f2;margin:0;line-height:1.6}
-.hero{background:#29563b;padding:40px;text-align:center}
-.latest{max-width:1000px;margin:25px auto;background:#2f5d40;border:2px solid #7fb38c;border-radius:10px;padding:18px 22px;box-shadow:0 2px 8px rgba(0,0,0,.25)}
-.latest h2{margin-top:0}
-.player,.status{max-width:1000px;margin:30px auto;padding:0 20px}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#173723;color:#fff;line-height:1.6}
+.hero{background:#2d6542;text-align:center;padding:40px 20px}
+.container{max-width:1000px;margin:auto;padding:20px}
+.panel{background:#2f5d40;border:2px solid #7fb38c;border-radius:10px;padding:18px 22px;margin-bottom:22px;box-shadow:0 2px 8px rgba(0,0,0,.25)}
+.panel h2{margin-top:0}
+.day{font-weight:bold}
 .video{border:3px solid #fff;border-radius:10px;overflow:hidden}
-.cards{display:flex;gap:20px;flex-wrap:wrap}
-.card{flex:1;min-width:180px;background:#26492f;padding:20px;border-radius:10px;text-align:center}
-.card p{font-size:2em}
-footer{text-align:center;background:#29563b;padding:20px;margin-top:40px}
+.video iframe{display:block;width:100%;aspect-ratio:16/9;border:0}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:18px;margin-top:15px}
+.card{background:#26492f;border-radius:10px;padding:20px;text-align:center}
+.card p{font-size:2rem;margin:.3em 0}
+footer{background:#2d6542;text-align:center;padding:20px;margin-top:40px}
