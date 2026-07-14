@@ -1,7 +1,7 @@
 {
   "eggs": 3,
-  "hatched": 2,
+  "hatched": 1,
   "day": 10,
-  "update": "🐣🐣 Two eggs hatched now. First one at 7:00am and the other around 8:00. If this pattern continues, we should see the third hatch at 9:00.",
+  "update": "🐣False alarm on the second egg. Had a bad camera angle that made it look like a second hatch.",
   "funfact": "LIFE EXPECTANCY: On average, American robins live about 1-2 years in the wild. They have the potential to live up to 14 years, but this is extremely rare. Only about ¼ of young robins survive their first year of life."
 }
